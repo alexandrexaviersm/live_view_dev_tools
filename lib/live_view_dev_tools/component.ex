@@ -30,6 +30,8 @@ defmodule LiveViewDevTools.Component do
           Assigns
           </.button>
         </div>
+
+        <.input options={[name_01: 1, name_02: 2]} value={2} name="select-live-views" type="select" />
       </div>
     """
   end
